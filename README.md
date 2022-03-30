@@ -54,8 +54,9 @@ Original idea:  ChaddyBones
 
 #### Windows
 
-- Clone this repository into a local directory
-- Navigate into the folder you cloned and setup the tools `git clone https://github.com/ArcadeTV/tools`
+- Clone this repository into a local directory.
+- Navigate into the folder you cloned and setup the tools `git clone https://github.com/ArcadeTV/tools`.
+- Put the needed source ROM into the `roms` folder.
 - Execute the `build.bat` file that is provided within the repository.
 
 You may want to install `tools\win\vcredist_x86.exe` as a dependency for some commandline tools if you run into an error.
