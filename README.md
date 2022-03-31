@@ -10,7 +10,7 @@ This project started as an idea and graphical mockup of [ChaddyBones](http://www
 #### How to use the patch:
 
 You need:
-- [x] The [latest release](https://github.com/ArcadeTV/mw3de/mw4-logo-revamp/latest) from the releases tab. <br>Extract the .bps patch file.
+- [x] The [latest release](https://github.com/ArcadeTV/mw4-logo-revamp/releases/latest) from the releases tab. <br>Extract the .bps patch file.
 - [x] The ROM "Monster World IV (USA, Europe) (En,Ja) (Virtual Console).md"<br>(CRC AF050C46)
 - [x] [flips](https://dl.smwcentral.net/11474/floating.zip) to apply the patch file to your ROM.
 
