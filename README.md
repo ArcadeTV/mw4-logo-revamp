@@ -2,6 +2,8 @@
 
 This project started as an idea and graphical mockup of [ChaddyBones](http://www.romhacking.net/forum/index.php?action=profile;u=15553). It replaces the MWIV logo with the 2022 remake version.
 
+Alternative logo by NeoRame.
+
 - Report any issues [here](https://github.com/ArcadeTV/mw4-logo-revamp/issues)
 - See [commits](https://github.com/ArcadeTV/mw4-logo-revamp/commits/main) in main branch for a brief changelog.
 
