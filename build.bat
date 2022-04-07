@@ -43,7 +43,7 @@ echo fixed header checksum>>.\tmp\build.log
 REM -----------------------------------------------------------------------------------------------
 REM create bps patchfile
 
-.\tools\win\flips.exe --create ".\roms\Monster World IV (USA, Europe) (En,Ja) (Virtual Console).md" ".\roms\Monster World IV (Logo Revamp)[ChaddyBones, ArcadeTV].md" ".\roms\Monster World IV (Logo Revamp)[ChaddyBones, ArcadeTV].bps"
+.\tools\win\flips.exe --create ".\roms\Monster World IV (USA, Europe) (En,Ja) (Virtual Console).md" ".\roms\Monster World IV (Logo Revamp)[ChaddyBones, ArcadeTV].md" ".\roms\Monster World IV (Logo Revamp)[NeoRame, ArcadeTV].bps"
 
 
 

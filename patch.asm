@@ -32,8 +32,8 @@ ret_bypassSpriteTable:                      ; just a label
     dc.l    gfxPack4+$02000000
     org     $C1088
     dc.l    gfxPack5+$02000000
-    ;org     $C108C
-    ;dc.l    gfxPack6+$02000000
+    org     $C108C
+    dc.l    gfxPack6+$02000000
 
 
 
@@ -60,12 +60,13 @@ ModifiedSpriteTable:
     dc.b    $0B,($4|%01000000),$A0,($A0-64),$88 ; 12 tiles, 24x32
     dc.b    $05,($4|%01000000),$AC,($B8-64),$88 ;  4 tiles, 16x16
 
-    dc.b    $0D,($4|%01000000),$B0,($10-64),$A8 ;  8 tiles, 32x16
-    dc.b    $05,($4|%01000000),$B8,($30-64),$A8 ;  4 tiles, 16x16, 8x16 free after this
-    dc.b    $0D,($4|%01000000),$BC,($48-64),$A8 ;  8 tiles, 32x16
-    dc.b    $09,($4|%01000000),$C4,($68-64),$A8 ;  6 tiles, 24x16
-    dc.b    $0D,($4|%01000000),$CA,($80-64),$A8 ;  8 tiles, 32x16
-    dc.b    $09,($4|%01000000),$D2,($A0-64),$A8 ;  6 tiles, 24x16
+    dc.b    $0E,($4|%01000000),$B0,($00-64),$A8 ; 12 tiles, 32x24
+    dc.b    $0A,($4|%01000000),$BC,($20-64),$A8 ;  9 tiles, 24x24
+    dc.b    $07,($4|%01000000),$C5,($38-64),$A8 ;  8 tiles, 16x32
+    dc.b    $0E,($4|%01000000),$CD,($48-64),$A8 ; 12 tiles, 32x24
+    dc.b    $0E,($4|%01000000),$D9,($68-64),$A8 ; 12 tiles, 32x24
+    dc.b    $0E,($4|%01000000),$E5,($88-64),$A8 ; 12 tiles, 32x24
+    dc.b    $06,($4|%01000000),$F1,($A8-64),$A8 ;  6 tiles, 16x24
     dc.b    $FF
 
 ; 00: 8x8
@@ -88,13 +89,15 @@ ModifiedSpriteTable:
 
     ; DATA: GFX ---------------------------------------------------------------------------------------------
 gfxPack1:
-    incbin "includes/bin/gfx/02_13910C.cbin"
+    incbin "includes/bin/gfx/alternative/tiledata_1.cbin"
 gfxPack2:
-    incbin "includes/bin/gfx/02_1392A3.cbin"
+    incbin "includes/bin/gfx/alternative/tiledata_2.cbin"
 gfxPack3:
-    incbin "includes/bin/gfx/02_148AC0.cbin"
+    incbin "includes/bin/gfx/alternative/tiledata_3.cbin"
 gfxPack4:
-    incbin "includes/bin/gfx/02_148C97.cbin"
+    incbin "includes/bin/gfx/alternative/tiledata_4.cbin"
 gfxPack5:
-    incbin "includes/bin/gfx/02_148E24.cbin"
+    incbin "includes/bin/gfx/alternative/tiledata_5.cbin"
+gfxPack6:
+    incbin "includes/bin/gfx/alternative/tiledata_6.cbin"
     
